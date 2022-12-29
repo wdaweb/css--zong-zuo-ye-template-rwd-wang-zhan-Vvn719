@@ -1,0 +1,142 @@
+body {
+  background-color: #fefaf6;
+}
+/* 自訂 navbar 背景色 */
+:root {
+  --bs-coffee-rgb: 217, 189, 165;
+  --bs-list-group-bg: 255, 255, 255;
+  --bs-list-group-border-color: 255, 255, 255;
+}
+
+.list-group-item {
+  background-color: rgba(var(--bs-list-group-bg));
+  border-color: rgba(var(--bs-list-group-border-color));
+  color: #fff;
+}
+
+.navbar-nav-scroll {
+  overflow-y: scroll;
+}
+
+.bg-coffee {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-coffee-rgb), var(--bs-bg-opacity)) !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#card01 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  width: 100%;
+  height: 220px;
+}
+
+.card {
+  text-overflow: ellipsis;
+  white-space: inherit;
+  overflow: hidden;
+  border: 0;
+  box-shadow: 0 0 20px rgba(135, 109, 90, 0.2);
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(135, 109, 90, 0.4);
+  transition: 0.5s;
+}
+
+.card a {
+  width: 25%;
+  height: 60px;
+  background-color: #dabea7;
+  border: none;
+  padding: 0;
+  line-height: 60px;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+.card a:hover {
+  background-color: #876d5a;
+  color: #fff;
+}
+
+.form-select {
+  border: 1px solid #dabea7;
+}
+
+.form-select:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgb(218, 190, 167);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(218, 190, 167, 0.25);
+  font-size: 1rem;
+}
+
+.form-control {
+  border: 1px solid #dabea7;
+  background-color: #fff;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgb(218, 190, 167);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(218, 190, 167, 0.25);
+  font-size: 1rem;
+}
+
+.input-group-text {
+  border: 1px solid #dabea7;
+  background: #dabea7;
+}
+
+.form-check-input {
+  border-color: #876d5a;
+}
+.form-check-input:checked {
+  background-color: #876d5a;
+  border-color: #876d5a;
+}
+
+.btn {
+  width: 60px;
+  background-color: #dabea7;
+  color: #fff;
+}
+.btn:hover {
+  width: 60px;
+  background-color: #876d5a;
+  color: #fff;
+  transition: 0.5s;
+}
+.footer {
+  background-blend-mode: multiply;
+  background: url(../img/tea12.jpg) center/cover;
+  background-color: rgba(135, 109, 90, 1);
+  /* opacity: 0.6; */
+}
+
+.footer::after {
+  content: '';
+}

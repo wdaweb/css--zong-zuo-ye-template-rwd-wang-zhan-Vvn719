@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>十日森旅</title>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark fixed-top bg-coffee">
+    <div class="container-fluid">
+      <!-- logo -->
+      <div class="row">
+        <a class="navbar-brand col logo" href="#">十日森旅</a>
+
+      </div>
+
+      <!-- 選單摺疊按鈕 -->
+      <div class="row">
+        <div class="col">
+          <!-- 漢堡按鈕 -->
+          <!-- 按鈕 id 對應選單 id -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <!-- 選單區 me-auto 是 margin-right-auto -->
+            <ul class="navbar-nav my-2 my-lg-0 " style="text-align: right;">
+              <li class="nav-item">
+                <a class="nav-link active " href="#section01">森旅故事</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#section01">帳型介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#section01">體驗活動</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#section01">周邊環境</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#section01">關於訂位</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 輪播 -->
+  <div class="container-fluid p-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="./img/tea01.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/tea12.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/tea13.jpg" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Card-三張 -->
+  <div class="container m-auto mt-5 mb-5 p-0" id="card01">
+    <div class=" row row-cols-1 row-cols-lg-3">
+      <div class="col col-sm-12 mb-3">
+        <div class="card">
+          <img src="./img/tea05.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">懶人夢幻露營優惠TWD3,500起<br>免帶裝備，輕便出遊！</h4>
+            <p class="card-text JQellipsis">位於宜蘭冬山河上游，全區使用有機栽種工法，園內有柚子、茶樹等多樣草本植物，結合綠森活的共生共榮理念
+              天然養護的寬廣草皮，提供足夠的活動空間，盥洗設備乾淨舒適，附精油洗沐用品
+              自在寬廣的露營區適合好友出遊、情侶升溫、家庭聚會</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 mb-3">
+        <div class="card">
+          <img src="./img/tea06.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">每一次旅行出走，都是回家的路</h4>
+            <p class="card-text JQellipsis">對家的定義愈來愈清楚，對家的定義，也愈來愈模糊…在成為一個流浪的人之後。
+              「你回來啦？」沒有過多熱情的擁抱和招呼，就像很近、很親的人一般。
+              空氣裡還聞得到他習慣抽的那款菸草味，牆上掛著 Bob marley 大大的笑臉，桌上少不了黃袋鼠的白酒，在我上一次離開的時候一模一樣。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 mb-3">
+        <div class="card">
+          <img src="./img/tea07.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title ">「睡外面」的露營體驗：用最微小的自己，感受最寬廣的土地</h4>
+            <p class="card-text JQellipsis">野營的魔力，就是當身體躺臥舒展在帳篷薄薄的布面上，所有的知覺感官都變得敏感，以便感受枝微末節的美好。那是用最輕微的自己，去感受這塊土地的細節和溫度。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card-滿版 -->
+  <div class="container-fluid p-0">
+    <div class="card mb-3 w-100 text-center border-0">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-6">
+          <img src="./img/tea08.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h1 class="card-title">豪華露營｜森與夢</h1>
+            <p class="card-text">藏身於樹林中，享受自然的美好，綠意盎然的環境<br>享受露營體驗，與大自然貼近，拋開塵世的庸庸擾擾
+            </p>
+            <br>
+            <a href="#" class="btn">立即預定</a>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0 align-items-center">
+        <div class="col-md-6 order-xs-1 order-md-2 ">
+          <img src="./img/tea09.jpg" class="img-fluid w-100 align-items-sm-start">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body  order-xs-2 order-md-1 ">
+            <h1 class="card-title">豪華露營｜一泊二食</h1>
+            <p class="card-text">藏身於樹林中，享受自然的美好，綠意盎然的環境<br>享受露營體驗，與大自然貼近，拋開塵世的庸庸擾擾
+            </p>
+            <br>
+            <a href="#" class="btn">立即預定</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Map -->
+  <div class="container-fluid p-0">
+    <div class="row">
+      <div class="col">
+        <div class="ratio ratio-21x9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7252.849030780274!2d121.7295806017858!3d24.64351207625465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467e74fa0ece7ef%3A0x209e1be43f4df69!2z5p2x6aKo57ag5rS7IE9yaWVudGFsIEdyZWVu!5e0!3m2!1szh-TW!2stw!4v1672331066796!5m2!1szh-TW!2stw"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 聯絡我們 -->
+  <div class="container p-0 text-center mt-5 mb-5">
+
+    <h1>十日森旅</h1>
+    <h2>美好假期 搶先預定 早鳥優惠</h2>
+    <h6>秘境般的露營空間，不用自己搭帳，即刻入住夢幻營帳</h6>
+    <!-- list-Name phoneNumber -->
+    <form>
+      <div class="row m-1 text-start needs-validation">
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label small">姓名</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="validationCustom01" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="input-group-text">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <label class="form-check-label" for="inlineRadio1">男士</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">女士</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label small">電話</label>
+          <div class="input-group mb-3">
+            <input type="number" class="form-control" name="phoneNumber" id="validationCustom02" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row m-1 text-start">
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label small">電子信箱</label>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" name="email" id="validationCustom03" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label small">問題類型</label>
+          <select class="form-select form-select" aria-label=".form-select-sm example">
+            <option selected><small>預約日期</small></option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="row m-1 text-start">
+        <div class="col-md-12">
+          <label class="form-label small">意見需求</label>
+          <div class="input-group mb-3">
+            <textarea class="form-control" style="height:150px"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row m-1 text-start">
+        <div class="col-md-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label small" for="flexCheckDefault">
+              訂閱最新優惠及活動
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn" type="submit">送出</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid p-0 footer">
+    <div class="row p-3">
+      <div class="col-lg-3 text-center col-6">
+        <img src="./img/tea01.jpg" alt="十日森旅" style="width:200px;height:200px;object-fit: cover;border-radius: 50%;">
+      </div>
+      <div class="col-lg-3 col-6">
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item">十日森旅 休閒農場
+          </li>
+          <li class="list-group-item">[休閒農場許可登記證]
+          </li>
+          <li class="list-group-item">農輔字第10111671934號
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Contact Us
+          </li>
+          <li class="list-group-item">Phone:(03) 1116-719
+          </li>
+          <li class="list-group-item">Email: smileday1201@gmail.comAddress</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Traffic Information</li>
+          <li class="list-group-item">駕車交通資訊：</li>
+          <li class="list-group-item">羅東交流道>光榮路>義成路>貓山路>安九路</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js'></script>
+  <!-- <script>
+    $(function () {
+      var len = 100; // 超過50個字以"..."取代
+      $(".JQellipsis").each(function (i) {
+        if ($(this).text().length > len) {
+          $(this).attr("title", $(this).text());
+          var text = $(this).text().substring(0, len - 1) + "...";
+          $(this).text(text);
+        }
+      });
+    });
+  </script> -->
+
+
+</body>
+
+</html>

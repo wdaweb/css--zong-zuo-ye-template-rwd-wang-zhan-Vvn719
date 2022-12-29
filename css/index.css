@@ -119,12 +119,12 @@ body {
   border-color: #876d5a;
 }
 
-.btn {
+.form .btn {
   width: 60px;
   background-color: #dabea7;
   color: #fff;
 }
-.btn:hover {
+.form .btn:hover {
   width: 60px;
   background-color: #876d5a;
   color: #fff;
